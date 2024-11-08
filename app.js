@@ -9,7 +9,7 @@ const { body, check, validationResult } = require('express-validator');
 const Contact = require('./models/contact');
 
 const app = express();
-const port = 4000;
+const port = 3000;
 
 // Setup EJS
 app.set('view engine', 'ejs');
